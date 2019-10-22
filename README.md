@@ -28,7 +28,7 @@ model = x.get_model()
 visualize( model , 'model.jpg' )
 ```
 
-Proposed Model architecture:
+Proposed Model architecture: ( model.jpg )
 <img src="readme/model.jpg"/>
 
 
