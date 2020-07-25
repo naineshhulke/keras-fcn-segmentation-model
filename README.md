@@ -10,15 +10,15 @@ Keras implementation of FCN-8 Semantic Segmentation model.
 ## Quick start
 
 ```bash
-git clone https://github.com/naineshhulke/keras-fcn-segmentation-model.git
-keras-fcn-segmentation-model
+!git clone https://github.com/naineshhulke/keras-fcn-segmentation-model.git
+cd keras-fcn-segmentation-model
 
 # example for getting a keras model instance
 
 from fcn import *
 
 n_classes = 2          # Total number of classes
-shape = ( 224,224,3 )    # Image Shape
+shape = ( 32,32,3 )    # Image Shape
 
 x = fcn8( n_classes , shape )
 model = x.get_model()
@@ -29,6 +29,6 @@ visualize( model , 'model.jpg' )
 ```
 
 Proposed Model architecture:
-<img src="readme/model.jpg"/>
+<img src="model.jpg"/>
 
 
